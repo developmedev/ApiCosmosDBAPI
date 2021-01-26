@@ -38,6 +38,15 @@ namespace ApiCosmosDB.Controllers
                 await _cosmosDbService.AddItemAsync(item);
             
         }
+        [HttpDelete]
+        [Route("Delete")]
+        public async Task Delete([Bind("Id,Name,Description,Completed")] Item item)
+        {
+
+            //item.Id = Guid.NewGuid().ToString();
+            await _cosmosDbService.DeleteItemAsync(item.Id);
+
+        }
 
         //[HttpPost]
         //[Route("Edit")]

@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCosmosDB", "ApiCosmosDB.csproj", "{71C5FE9D-1907-45AE-ABCC-A37796D76566}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiCosmosDB", "ApiCosmosDB.csproj", "{71C5FE9D-1907-45AE-ABCC-A37796D76566}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDBMobile.Android", "..\CosmosDBMobile\CosmosDBMobile.Android\CosmosDBMobile.Android.csproj", "{1A77FB94-6657-42DC-A946-A185E751E8A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDBMobile", "..\CosmosDBMobile\CosmosDBMobile\CosmosDBMobile.csproj", "{1089965A-6C4C-4633-A119-4EEE78A4B028}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,16 @@ Global
 		{71C5FE9D-1907-45AE-ABCC-A37796D76566}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71C5FE9D-1907-45AE-ABCC-A37796D76566}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71C5FE9D-1907-45AE-ABCC-A37796D76566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A77FB94-6657-42DC-A946-A185E751E8A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A77FB94-6657-42DC-A946-A185E751E8A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A77FB94-6657-42DC-A946-A185E751E8A1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1A77FB94-6657-42DC-A946-A185E751E8A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A77FB94-6657-42DC-A946-A185E751E8A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A77FB94-6657-42DC-A946-A185E751E8A1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1089965A-6C4C-4633-A119-4EEE78A4B028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1089965A-6C4C-4633-A119-4EEE78A4B028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1089965A-6C4C-4633-A119-4EEE78A4B028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1089965A-6C4C-4633-A119-4EEE78A4B028}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
